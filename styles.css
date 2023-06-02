@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(236, 194, 75);
+    font-family: 'Sacramento', cursive;
+    text-align: center;
+    font-size: 25px;
+    /* background-image: url(https://t3.ftcdn.net/jpg/04/87/51/82/360_F_487518247_JDRY9lgWzKyDsvxrSLFUdzbkuQhndBAH.jpg); */
+    background-image: url('img/hangingMinion.webp');
+    background-repeat: inherit;
+    background-size: cover;
+    color: rgb(93, 4, 235);
+    width: 100%;
+    float: left;
+    height: 100%;
+    /* background-size: 100%; */
+}
+
+
+/* background for smaller screens */
+
+@media screen and (max-width: 768px) {
+    body {
+        background-image: url('https://wallpapercave.com/dwp1x/wp4790263.jpg');
+        background-repeat: inherit;
+        background-size: cover;
+    }
+}
+
+h1 {
+    /* font-family: 'Sacramento', cursive; */
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 50px;
+    text-decoration: underline;
+    color: rgb(234, 82, 22);
+}
+
+.container {
+    padding-top: 90px;
+}
+
+button {
+    border-radius: 30%;
+    padding: 10px;
+    width: 40%;
+    height: auto;
+    text-shadow: #E5F9DB;
+    border-color: aqua;
+    border-top: 0px;
+}
+
+
+/* .bottomright {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size: 18px;
+} */
